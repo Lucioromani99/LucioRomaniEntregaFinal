@@ -1,0 +1,236 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+     font-family: 'Roboto Slab', serif;
+     background-color: black;
+     color: aliceblue;
+   
+
+
+}
+.Cabecera{
+    height: 100vh;
+    background-image: url("../assets/Imagenes/close-up-artist-sketch.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}    
+
+
+
+.ContenedorHeader{
+    display: inline-block;
+}
+.contenedorLogo{   
+    width: 30%;
+    display: inline-block;
+    padding-top: 50px;
+   
+    
+}
+.logo{
+    width: 40%;
+    padding-top: 50px;
+    padding-bottom: 0;
+    
+}
+
+.navegacion{
+    width: 60%;
+    display: inline-block;
+    text-align: right;
+    margin-right: 0px;
+   
+   
+}
+
+.ListaItem{
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    text-align: right;
+
+}
+
+.LinkNav{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+.SectionContenedora{
+
+    border: solid whitesmoke 2px;
+    margin-top: 20px;
+    
+}
+
+.SectionPrimeraGaleria{
+    height: 50%;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.ContenedorPrimeraGaleria{
+
+    height: 50%;
+    position: relative;
+    width: 60%;
+
+}
+
+.SectionSegundaGaleria{
+
+    height: 50%;
+    display: inline-block;
+    width: 100%;
+   /* padding-bottom: 90px;*/
+}
+
+.ContenedorSegundaGaleria{
+
+    height: 50%;
+    
+    width: 60%;
+
+}
+
+.FotoFila1 {
+    display: inline-block;
+    width:30%;
+    /*padding-top: 10vh;*/
+   padding-left: 20px;
+   position: relative;
+   left: 500px;
+    
+}
+
+.FotoFila2 {
+    display: inline-block;
+    width: 30%;
+    padding-left: 20px;
+    /*padding-top: 10vh;*/
+    position: relative;
+    left: 500px;
+    
+    
+}
+
+
+
+.Contenedortituloprincipal{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid #fff;
+    box-shadow: 0 0 25px #222;
+    
+    backdrop-filter: blur(16px);
+    height: 30vh;
+    margin-top: 25vh;
+    
+}
+
+.Contenedortituloprincipal p{
+    font-size: 1.5rem;
+    padding-top: 50px;
+    text-align: center;
+   
+    
+}
+
+
+.main{
+    height: 100vh;
+    color: #222;
+    background-image: url(../assets/Imagenes/3d32e1d763147362ff40a628286b3f37.jpg);
+    
+
+}
+
+.formulario{
+    height: 100vh;
+    text-align: center;
+    margin-top: 30vh;
+    
+}
+
+
+
+.Cardsdelinicio{
+   text-align: center;
+   color: aliceblue;
+   
+    
+}
+
+.Cardsdelinicio h2{
+    font-size: 2rem;
+    padding-top: 30px;
+    color: aliceblue;
+}
+
+.card{
+    width: 30%;
+    display: inline-block;
+    padding-top: 10vh;   
+}
+
+.card img {
+width: 100%;
+}
+
+.card h3 {
+    font-style: italic;
+    padding-bottom: 5px;
+
+}
+
+
+.footer{
+    height: 30vh;
+    background-color: #222;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.contenedormapa{
+    height: 15vh;
+    position: absolute;
+    left: 0;
+    top: 10px;
+
+}
+
+.parrafofooter{
+    margin-top: 1vh;
+    font-size: 1.5rem;
+    position: relative;
+    top: 20px;
+
+}
+
+.LinkRedes{
+    text-decoration: none;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.icon{
+    color: antiquewhite;
+    font-size: 3rem;
+    position: relative;
+    top: 50px;
+}
