@@ -12,6 +12,10 @@ body{
      background-color: black;
 }
 
+.grid {
+display: grid;
+grid-template-columns: 1fr;
+}
 
    
 .Cabecera {
@@ -39,37 +43,10 @@ body{
 }    
 
 
-/*
-.ContenedorHeader{
-    display: inline-block;
-}
-.contenedorLogo{   
-    width: 30%;
-    display: inline-block;
-    padding-top: 50px;
-   
-    
-}
-.logo{
-    width: 40%;
-    padding-top: 50px;
-    padding-bottom: 0;
-    
-}
-
-
-.navegacion{
-    width: 60%;
-    display: inline-block;
-    text-align: right;
-    margin-right: 0px;
-   
-   
-}
-*/
 
 .navbar-light .navbar-nav .nav-link {
     color: #222;
+    margin-top: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
@@ -91,95 +68,49 @@ body{
     font-size: 1.5rem;
     
 }
-/*
-.SectionContenedora{
-
-    border: solid whitesmoke 2px;
-    margin-top: 20px;
-    
-}
-
-.SectionPrimeraGaleria{
-    height: 50%;
-    display: inline-block;
-    padding-bottom: 30px;
-}
-
-.ContenedorPrimeraGaleria{
-
-    height: 50%;
-    position: relative;
-    width: 60%;
-
-}
-
-.SectionSegundaGaleria{
-
-    height: 50%;
-    display: inline-block;
+*/
+.Cabecera{
     width: 100%;
-   
-}
-
-.ContenedorSegundaGaleria{
-
-    height: 50%;
-    
-    width: 60%;
-
-}
-
-.FotoFila1 {
-    display: inline-block;
-    width:30%;
-    /*padding-top: 10vh;
-   padding-left: 20px;
-   position: relative;
-   left: 500px;
-    
-}
-
-.FotoFila2 {
-    display: inline-block;
-    width: 30%;
-    padding-left: 20px;
-    /*padding-top: 10vh;
-    position: relative;
-    left: 500px;
-    
-    
-}
-
-
-
-.Contenedortituloprincipal{
-    width: 50%;
     margin: 0 auto;
     text-align: center;
-    border: 3px solid #fff;
     box-shadow: 0 0 25px #222;
-    
     backdrop-filter: blur(16px);
-    height: 30vh;
-    margin-top: 25vh;
+    height: 100vh;
     
+    
+}
+
+.H2Lucio {
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+font-size: 1rem;
 }
 
 .Contenedortituloprincipal p{
     font-size: 1.5rem;
-    padding-top: 50px;
+    margin-top: 150px;
+   
     text-align: center;
+    backdrop-filter: blur(16px) ;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: #222;
+    border: solid white;
    
     
 }
 */
 .col-lg-4 {
-    padding: 25px;
+    padding: 40px !important;
     margin: 0;
 }
 
 .ImagenesGaleria {
-
+padding: 25px;
 width: 100%;
 }
 
@@ -191,6 +122,7 @@ width: 100%;
     height: 100vh;
     color: #222;
     background-image: url(../assets/Imagenes/3d32e1d763147362ff40a628286b3f37.jpg);
+    margin: auto 0;
     
 
 }
@@ -202,7 +134,10 @@ width: 100%;
     
 }
 
-
+.ContenedorImagenes {
+    padding: auto 0 !important;
+    margin: auto 0;
+}
 
 .Cardsdelinicio{
    text-align: center;
@@ -221,10 +156,17 @@ width: 100%;
     width: 30%;
     display: inline-block;
     padding-top: 10vh;   
+    background-color: #fff0;
 }
 
-.card img {
+.card img :hover{
+    border: solid wheat;
 width: 100%;
+}
+
+.Fotos{
+    display: flex;
+    width: 100%;
 }
 
 .card h3 {
@@ -271,9 +213,6 @@ width: 100%;
     align-items: center;
 }
 
-.mapa{
-  
-}
 .container {
     display: flex;
 }
