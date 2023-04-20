@@ -13,7 +13,18 @@ body{
 }
 
 
+@media (min-width: 300px) {
+    .Cabecera {height: 100vh;
+}
+}
 
+@media( min-widht:300px) and (max-width:420px) {
+    .Contenedortituloprincipal {margin-bottom: 30vh; margin-top: 10vh;}
+}
+
+@media( min-widht:300px) and (max-width:420px) {
+    .TextoArtista { margin-bottom: 10vh; font-size: 1rem;}
+}
    
 .Cabecera {
     width: 100%;
@@ -32,7 +43,7 @@ body{
 
 .Cabecera{
    
-    background-image: url("../assets/Imagenes/close-up-artist-sketch.jpg");
+    background-image: url("../assets/Imagenes/close-up-artist-sketch.jpg") !important;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -96,12 +107,24 @@ font-size: 1rem;
     justify-content: center;
     align-items: center;
     display: flex;
-    box-shadow: #222;
+    box-shadow: #222 5px;
     border: solid white;
    
     
 }
-*/
+
+.SectionFormulario { margin: auto 0; width: 100%;}
+
+.divtituloh2contacto { margin-top: 10vh; }
+
+.ContenedortituloprincipalContacto { padding-bottom: 10vh; margin-bottom: 10vh;}
+
+.containerFormulario { padding: 10px;}
+
+.ContenedorEmail {padding-bottom: 20px;}
+
+.SelectorFormulario {padding-bottom: 30px;}
+
 .col-lg-4 {
     padding: 40px !important;
     margin: 0;
