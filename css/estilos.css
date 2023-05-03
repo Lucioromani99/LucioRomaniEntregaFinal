@@ -14,9 +14,9 @@ body{
 
 
 @media (min-width: 300px) {
-    .Cabecera {height: 100vh;
+   height: 100%;
 }
-}
+
 
 @media( min-widht:300px) and (max-width:420px) {
     .Contenedortituloprincipal {margin-bottom: 30vh; margin-top: 10vh;}
@@ -48,7 +48,29 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}    
+} 
+
+.CabeceraIndex {
+    background-image: url("../assets/Imagenes/close-up-artist-sketch.jpg") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;  
+}
+
+.CabeceraServicio {
+    background-image: url("../assets/Imagenes/close-up-artist-sketch.jpg") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;  
+
+
+}
+
+
 
 
 .GaleriaSection{
@@ -59,6 +81,7 @@ body{
 .navbar-light .navbar-nav .nav-link {
     color: #222;
     margin-top: 20px;
+    font-size: 1.5rem;
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
@@ -76,7 +99,7 @@ body{
 .LinkNav{
     text-decoration: none;
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     
 }
 */
@@ -86,7 +109,7 @@ body{
     text-align: center;
     box-shadow: 0 0 25px #222;
     backdrop-filter: blur(16px);
-    height: 100vh;
+    
     
     
 }
@@ -101,7 +124,7 @@ font-size: 1rem;
 
 .Contenedortituloprincipal p{
     font-size: 1.5rem;
-    margin-top: 150px; 
+    margin-top: 100px; 
     text-align: center;
     backdrop-filter: blur(16px) ;
     justify-content: center;
@@ -111,6 +134,45 @@ font-size: 1rem;
     border: solid white;
    
     
+}
+
+.DivCardsFormacion{
+    display: flex;
+    justify-content: center;
+}
+.CardFormacionEstudios {
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    flex-wrap: wrap;
+    margin: 10px;
+    box-shadow: #222;
+    border-radius: 8px;
+}
+
+.CardFormacionEstudios:hover{
+transform: translateY(-15px);
+box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.cardFormularioImg {
+height: fit-content;
+width: 100%;
+}
+.ContenedortituloprincipalFormulario{
+    font-size: 1.5rem;
+    margin-top: 100px; 
+    text-align: center;
+    backdrop-filter: blur(16px) ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: #222 5px;
+    border: solid white;
+    margin-bottom: 50px;
+
 }
 
 .SectionFormulario { margin: auto 0; width: 100%;}
@@ -139,13 +201,49 @@ width: 100%;
     border: solid wheat;
 }
 
-.main{
+.ContenedorTextoServicio{
+    margin-bottom: 100px;
+    margin-top: -70px;
+}
+
+.mainIndex{
     
     color: #222;
     background-image: url(../assets/Imagenes/3d32e1d763147362ff40a628286b3f37.jpg);
     margin: auto 0;
+   
     
+}
 
+.ServicioMain {
+    background-image: url(../assets/Imagenes/3d32e1d763147362ff40a628286b3f37.jpg);
+    object-fit: contain;
+    margin: auto 0;
+}
+
+.DivCardsServicio {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.CardsServicioHijo{
+padding: 0%;
+margin: auto 0;
+}
+
+.CardsServicioHijo img:hover {
+    transform: translateY(-25px);
+    border-radius: 10px;
+}
+
+.ImagenesServicioCard{
+    object-fit: cover;
+    width: 100%;
+    margin-top: -110px;
+}
+
+.InputSegundoDiv {
+    margin-left: 15px;
 }
 
 .formulario{
@@ -241,6 +339,11 @@ margin: auto 0;
 .icon{
     color: antiquewhite;
     font-size: 3rem;
-    
     top: 50px;
+}
+
+.icon:hover {
+    transform: translateY(-15px);
+    
+
 }
