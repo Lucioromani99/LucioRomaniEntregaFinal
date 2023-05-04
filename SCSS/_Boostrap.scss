@@ -1,0 +1,26 @@
+.navbar-light .navbar-nav .nav-link {
+    color: #222;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: #222;
+}
+
+.nav-link:hover {
+    filter:alpha(opacity=70); 
+    -moz-opacity: 0.65; 
+    opacity: 0.65;
+    position: relative; 
+    top: -1px;
+    cursor:allowed;
+}
+
+
+.LinkNav {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+
+}

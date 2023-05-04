@@ -1,82 +1,66 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;400;800&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-body{
-     font-family: 'Roboto Slab', serif;
-     background-color: black;
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: black;
+    background-image: url("../assets/Imagenes/close-up-artist-sketch.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-
+/*
 @media (min-width: 300px) {
-   height: 100%;
+    height: 100%;
+}*/
+
+
+
+
+@media(min-widht:300px) and (max-width:420px) {
+    
+    .Contenedortituloprincipal {
+        margin-bottom: 30vh;
+        margin-top: 10vh;
+    }
+}
+
+@media(min-widht:300px) and (max-width:420px) {
+    .TextoArtista {
+        margin-bottom: 10vh;
+        font-size: 1rem;
+    }
 }
 
 
-@media( min-widht:300px) and (max-width:420px) {
-    .Contenedortituloprincipal {margin-bottom: 30vh; margin-top: 10vh;}
+.h2LucioRomani {
+    color: black;
 }
 
-@media( min-widht:300px) and (max-width:420px) {
-    .TextoArtista { margin-bottom: 10vh; font-size: 1rem;}
-}
-   
-.Cabecera {
-    width: 100%;
-}
-.h2LucioRomani {color: black;}
-
-.conteiner {
+/*.conteiner {
     background-color: #222;
     height: 10vh;
     z-index: 1;
     width: 100%;
-   
-}
+
+}*/
 
 
-
-.Cabecera{
-   
-    background-image: url("../assets/Imagenes/close-up-artist-sketch.jpg") !important;
+.Cabecera {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-} 
-
-.CabeceraIndex {
-    background-image: url("../assets/Imagenes/close-up-artist-sketch.jpg") !important;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;  
+    background-attachment: fixed;    
 }
 
-.CabeceraServicio {
-    background-image: url("../assets/Imagenes/close-up-artist-sketch.jpg") !important;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;  
-
-
-}
-
-
-
-
-.GaleriaSection{
-    margin: auto 0;
-
-}
+.GaleriaSection {
+    margin: auto 0;}
 
 .navbar-light .navbar-nav .nav-link {
     color: #222;
@@ -88,58 +72,79 @@ body{
     color: #222;
 }
 
-.ListaItem{
-    list-style: none;
-    padding-left: 10px;
-    padding-bottom: 0px;
-    text-align: right;
-
+.nav-link:hover {
+    filter:alpha(opacity=70); 
+    -moz-opacity: 0.65; 
+    opacity: 0.65;
+    position: relative; 
+    top: -1px;
+    cursor:allowed;
 }
 
-.LinkNav{
+
+.LinkNav {
     text-decoration: none;
     color: white;
     font-size: 2rem;
-    
-}
-*/
-.Cabecera{
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    box-shadow: 0 0 25px #222;
-    backdrop-filter: blur(16px);
-    
-    
-    
+
 }
 
 .H2Lucio {
-display: flex;
-align-items: center;
-justify-content: center;
-text-decoration: none;
-font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.Contenedortituloprincipal p{
-    font-size: 1.5rem;
-    margin-top: 100px; 
+.Contenedortituloprincipal p {
+    font-size: 1.5rem;  
     text-align: center;
-    backdrop-filter: blur(16px) ;
+    backdrop-filter: blur(16px);
     justify-content: center;
     align-items: center;
     display: flex;
     box-shadow: #222 5px;
     border: solid white;
-   
-    
+
+    margin-top: 70px;
+
 }
 
-.DivCardsFormacion{
+.ContenedortituloprincipalServicio {
+    font-size: 1.5rem; 
+    text-align: center;
+    backdrop-filter: blur(16px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: #222 5px;
+    border: solid white;
+    
+    margin-top: 100px;
+}
+
+.ContenedortituloprincipalFormulario {
+    font-size: 1.5rem;
+    text-align: center;
+    backdrop-filter: blur(16px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: #222 5px;
+    border: solid white;
+
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.DivCardsFormacion {
     display: flex;
     justify-content: center;
 }
+
 .CardFormacionEstudios {
     display: flex;
     justify-content: center;
@@ -150,42 +155,53 @@ font-size: 1rem;
     border-radius: 8px;
 }
 
-.CardFormacionEstudios:hover{
-transform: translateY(-15px);
-box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+.CardFormacionEstudios:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 
 }
 
 
 .cardFormularioImg {
-height: fit-content;
-width: 100%;
+    height: fit-content;
+    width: 100%;
 }
-.ContenedortituloprincipalFormulario{
+
+.ContenedortituloprincipalContacto{
     font-size: 1.5rem;
-    margin-top: 100px; 
+    margin-top: 100px;
     text-align: center;
-    backdrop-filter: blur(16px) ;
+    backdrop-filter: blur(16px);
     justify-content: center;
     align-items: center;
     display: flex;
-    box-shadow: #222 5px;
     border: solid white;
+
     margin-bottom: 50px;
+    margin-bottom: 10vh;
 
 }
 
-.SectionFormulario { margin: auto 0; width: 100%;}
+.SectionFormulario {
+    margin: auto 0;
+    width: 100%;
+}
 
-.divtituloh2contacto { margin-top: 10vh; }
+.divtituloh2contacto {
+    margin-top: 10vh;
+}
 
-.ContenedortituloprincipalContacto { padding-bottom: 10vh; margin-bottom: 10vh;}
+.containerFormulario {
+    padding: 10px;
+}
 
-.containerFormulario { padding: 10px;}
+.ContenedorEmail {
+    padding-bottom: 20px;
+}
 
-.ContenedorEmail {padding-bottom: 20px;}
-
-.SelectorFormulario {padding-bottom: 30px;}
+.SelectorFormulario {
+    padding-bottom: 30px;
+}
 
 .col-lg-4 {
     padding: 40px !important;
@@ -193,42 +209,44 @@ width: 100%;
 }
 
 .ImagenesGaleria {
-padding: 25px;
-width: 100%;
+    padding: 25px;
+    width: 100%;
 }
 
 .col-lg-4 img:hover {
     border: solid wheat;
 }
 
-.ContenedorTextoServicio{
+.ContenedorTextoServicio {
     margin-bottom: 100px;
     margin-top: -70px;
 }
 
-.mainIndex{
-    
+.mainIndex {
+    justify-content: center;
     color: #222;
-    background-image: url(../assets/Imagenes/3d32e1d763147362ff40a628286b3f37.jpg);
     margin: auto 0;
-   
-    
+    /*background-image: url(../assets/Imagenes/3d32e1d763147362ff40a628286b3f37.jpg);
+    margin: auto 0;*/
+
+
 }
 
+/*
 .ServicioMain {
     background-image: url(../assets/Imagenes/3d32e1d763147362ff40a628286b3f37.jpg);
     object-fit: contain;
     margin: auto 0;
-}
+}*/
 
 .DivCardsServicio {
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
-.CardsServicioHijo{
-padding: 0%;
-margin: auto 0;
+.CardsServicioHijo {
+    padding: 0%;
+    margin: auto 0;
 }
 
 .CardsServicioHijo img:hover {
@@ -236,7 +254,7 @@ margin: auto 0;
     border-radius: 10px;
 }
 
-.ImagenesServicioCard{
+.ImagenesServicioCard {
     object-fit: cover;
     width: 100%;
     margin-top: -110px;
@@ -246,11 +264,11 @@ margin: auto 0;
     margin-left: 15px;
 }
 
-.formulario{
+.formulario {
     height: 100vh;
     text-align: center;
     margin-top: 30vh;
-    
+
 }
 
 .ContenedorImagenes {
@@ -259,27 +277,34 @@ margin: auto 0;
     margin-top: 10vh;
 }
 
-.Cardsdelinicio{
-   text-align: center;
-   color: aliceblue;
-   
-    
+.BreveIntroduccion {
+    margin-bottom: 0px;
 }
 
-.Cardsdelinicio h2{
+.Cardsdelinicio {
+    text-align: center;
+    color: aliceblue;
+
+
+}
+
+.Cardsdelinicio h2 {
     font-size: 2rem;
-    padding-top: 30px;
     color: aliceblue;
 }
-.Contenedor3Fotos {
 
+.Contenedor3Fotos {
     margin-bottom: 5vh;
 }
 
-.card{
+.card {
+    margin-bottom: 100px;
     display: inline-block;
-    padding-top: 10vh;   
+    padding-top: 10vh;
     background-color: #fff0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0px
 }
 
 .card img:hover {
@@ -288,9 +313,9 @@ margin: auto 0;
 }
 
 
-  
 
-.Fotos{
+
+.Fotos {
     display: flex;
     width: 100%;
 }
@@ -300,19 +325,19 @@ margin: auto 0;
     padding-bottom: 5px;
 }
 
-.footer{
-text-align: center;
-margin: auto 0;
+.footer {
+    text-align: center;
+    margin: auto 0;
 }
 
-.contenedormapa{
+.contenedormapa {
     display: flex;
 }
 
 
-.parrafofooter{
+.parrafofooter {
     margin-top: 1vh;
-    font-size: 1.5rem;  
+    font-size: 1.5rem;
     top: 20px;
     justify-content: center;
     display: grid;
@@ -329,14 +354,23 @@ margin: auto 0;
     /*margin-left: 10vh;*/
 }
 
-.LinkRedes{
+.LinkRedesDiv {
     text-decoration: none;
     padding-left: 20px;
     margin-top: 20px;
     display: inline-flex;
 }
 
-.icon{
+.LinkRedes{
+    text-decoration: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: inline-flex;
+   
+    
+}
+
+.icon {
     color: antiquewhite;
     font-size: 3rem;
     top: 50px;
@@ -344,6 +378,6 @@ margin: auto 0;
 
 .icon:hover {
     transform: translateY(-15px);
-    
+
 
 }

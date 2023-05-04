@@ -1,3 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;400;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
 
+header .Cabecera {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 25px #222;
+}
+header .Cabecera div {
+  display: flex;
+}
+
+footer {
+  text-align: center;
+  margin: auto 0;
+}
+footer p {
+  margin-top: 1vh;
+  font-size: 1.5rem;
+  top: 20px;
+  justify-content: center;
+  display: grid;
+}
+footer .LinkRedesDiv {
+  text-decoration: none;
+  padding-left: 20px;
+  margin-top: 20px;
+  display: inline-flex;
+}
+footer .LinkRedes {
+  text-decoration: none;
+  padding-left: 20px;
+  margin-top: 20px;
+  display: inline-flex;
+}
+footer .Icon {
+  color: antiquewhite;
+  font-size: 3rem;
+  top: 50px;
+}
+footer .Icon:hover {
+  transform: translateY(-15px);
+}
+
+.ServicioMain {
+  font-family: "Roboto Slab", serif;
+}
+.ServicioMain .ContenedorTextoServicio {
+  margin-bottom: 100px;
+  margin-top: -70px;
+}
+.ServicioMain .ContenedorTextoServicio .ContenedortituloprincipalServicio {
+  font-size: 1.5rem;
+  margin-top: 100px;
+  text-align: center;
+  backdrop-filter: blur(16px);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-shadow: #222 5px;
+  border: solid white;
+}
+.ServicioMain .DivCardsServicio {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.ServicioMain .DivCardsServicio .CardsServicio .CardsServicioHijo {
+  padding: 0%;
+  margin: auto 0;
+}
+.ServicioMain .DivCardsServicio .CardsServicio .CardsServicioHijo img:hover {
+  transform: translateY(-25px);
+  border-radius: 10px;
+}
+.ServicioMain .DivCardsServicio .CardsServicio .CardsServicioHijo .ImagenesServicioCard {
+  object-fit: cover;
+  width: 100%;
+  margin-top: -110px;
+}
+
+.mainIndex {
+  color: #222;
+}
+.mainIndex .ContenedorImagenes {
+  padding: auto 0 !important;
+  margin: auto 0;
+  margin-top: 10vh;
+}
+.mainIndex .ContenedorImagenes .Cardsdelinicio {
+  text-align: center;
+  color: aliceblue;
+}
+.mainIndex .ContenedorImagenes .Cardsdelinicio .BreveIntroduccion {
+  margin-bottom: 0px;
+}
+.mainIndex .ContenedorImagenes .Cardsdelinicio .BreveIntroduccion h2 {
+  font-size: 2rem;
+  color: aliceblue;
+}
+.mainIndex .ContenedorImagenes .Cardsdelinicio .Contenedor3Fotos {
+  margin-bottom: 5vh;
+}
+.mainIndex .ContenedorImagenes .Cardsdelinicio .Contenedor3Fotos .card {
+  margin-bottom: 100px;
+  display: inline-block;
+  padding-top: 10vh;
+  background-color: rgba(255, 255, 255, 0);
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 0px;
+}
+.mainIndex .ContenedorImagenes .Cardsdelinicio .Contenedor3Fotos .card img:hover {
+  border: solid wheat;
+  width: 100%;
+}
+.mainIndex .ContenedorImagenes .Cardsdelinicio .Contenedor3Fotos .card h3 {
+  font-style: italic;
+  padding-bottom: 5px;
+}
+.mainIndex .ContenedorImagenes .Cardsdelinicio .Contenedor3Fotos .card .Fotos {
+  display: flex;
+  width: 100%;
+}
+
+.SectionFormulario {
+  margin: auto 0;
+  width: 100%;
+}
+.SectionFormulario .divtituloh2contacto {
+  margin-top: 10vh;
+}
+.SectionFormulario .ContenedortituloprincipalContacto {
+  font-size: 1.5rem;
+  margin-top: 100px;
+  text-align: center;
+  backdrop-filter: blur(16px);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: solid white;
+  margin-bottom: 50px;
+}
+.containerFormulario {
+  padding: 10px;
+}
+.containerFormulario .SelectorFormulario {
+  padding-bottom: 30px;
+}
+.containerFormulario .ContenedorEmail {
+  padding-bottom: 20px;
+}
+
+/*
+.SelectorFormulario {
+    padding-bottom: 30px;
+}
+.ContenedorEmail{
+    padding-bottom: 20px;
+}*/
+.ContenedortituloprincipalFormulario {
+  font-size: 1.5rem;
+  margin-top: 50px;
+  text-align: center;
+  backdrop-filter: blur(16px);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-shadow: #222 5px;
+  border: solid white;
+  margin-bottom: 50px;
+}
+.ContenedortituloprincipalFormulario p {
+  font-family: "Roboto Slab", serif;
+}
+
+.DivCardsFormacion {
+  display: flex;
+  justify-content: center;
+}
+.DivCardsFormacion .DivCardGrupo .CardFormacionEstudios {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.DivCardsFormacion .DivCardGrupo .CardFormacionEstudios .cardFormularioImg {
+  height: fit-content;
+  width: 100%;
+}
+
+.GaleriaSection {
+  margin: auto 0;
+}
+.GaleriaSection .div .GaleriaCards {
+  border: solid wheat;
+}
+.GaleriaSection .div .GaleriaCards .ImagenesGaleria {
+  padding: 25px;
+  width: 100%;
+}
 
 /*# sourceMappingURL=styles.css.map */

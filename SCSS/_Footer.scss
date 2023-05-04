@@ -1,0 +1,35 @@
+footer {
+    text-align: center;
+    margin: auto 0;
+    p {
+        margin-top: 1vh;
+        font-size: 1.5rem;  
+        top: 20px;
+        justify-content: center;
+        display: grid;
+    } 
+        .LinkRedesDiv{
+            text-decoration: none;
+            padding-left: 20px;
+            margin-top: 20px;
+            display: inline-flex; 
+        }   
+            .LinkRedes {
+                text-decoration: none;
+                padding-left: 20px;
+                margin-top: 20px;
+                display: inline-flex;
+            }
+                .Icon {
+                    color: antiquewhite;
+                    font-size: 3rem;
+                    top: 50px;
+                }
+                    .Icon:hover {transform: translateY(-15px);}
+            
+        
+}     
+        
+       
+
+    

@@ -1,0 +1,40 @@
+.SectionFormulario {
+    margin: auto 0;
+    width: 100%;
+
+    .divtituloh2contacto {
+        margin-top: 10vh;
+    }
+
+    .ContenedortituloprincipalContacto {
+        @include Contenedortituloprincipal;
+        margin-bottom: 50px;
+        margin-bottom: 10vh;
+        p{
+          $FuentePrincipal:'Roboto Slab', serif;
+        }
+    }
+
+}
+
+.containerFormulario {
+    padding: 10px;
+    .SelectorFormulario {
+        padding-bottom: 30px;
+    }
+    .ContenedorEmail {
+        padding-bottom: 20px;
+    }
+}
+
+
+
+
+
+/*
+.SelectorFormulario {
+    padding-bottom: 30px;
+}
+.ContenedorEmail{
+    padding-bottom: 20px;
+}*/

@@ -1,0 +1,30 @@
+.ServicioMain {
+    font-family: $FuentePrincipal;
+    .ContenedorTextoServicio {
+        margin-bottom: 100px;
+        margin-top: -70px;
+        .ContenedortituloprincipalServicio{
+            @include Contenedortituloprincipal;
+            margin-top: 100px;
+        }
+    }
+    .DivCardsServicio {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        .CardsServicio {
+            .CardsServicioHijo {
+                padding: 0%;
+                margin: auto 0;
+                & img:hover {
+                    transform: translateY(-25px);
+                    border-radius: 10px;
+                }
+                .ImagenesServicioCard{
+                    object-fit: cover;
+                    width: 100%;
+                    margin-top: -110px;
+                }
+            }
+        }
+    }
+}
