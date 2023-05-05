@@ -19,13 +19,11 @@ footer {
                 padding-left: 20px;
                 margin-top: 20px;
                 display: inline-flex;
+                font-size: 3rem;
+                color: antiquewhite;
+                & .icon:hover {transform: translateY(-15px);}
             }
-                .Icon {
-                    color: antiquewhite;
-                    font-size: 3rem;
-                    top: 50px;
-                }
-                    .Icon:hover {transform: translateY(-15px);}
+                
             
         
 }     

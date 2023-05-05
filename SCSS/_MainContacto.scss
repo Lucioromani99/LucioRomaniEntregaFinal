@@ -1,6 +1,7 @@
 .SectionFormulario {
     margin: auto 0;
     width: 100%;
+    font-size: 2rem;
 
     .divtituloh2contacto {
         margin-top: 10vh;
@@ -25,6 +26,11 @@
     .ContenedorEmail {
         padding-bottom: 20px;
     }
+}
+
+.input-group-sm {
+    font-size: 1.5rem;
+    font-family: $FuentePrincipal;
 }
 
 

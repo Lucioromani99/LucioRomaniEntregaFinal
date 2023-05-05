@@ -1,11 +1,19 @@
 .GaleriaSection {
     margin: auto 0;
-    .div{
-        .GaleriaCards {
-            border: solid wheat;
+    margin-top: 30px;
+    margin-bottom: 40px ;
+    div{ 
+        .GaleriaCards {                   
             .ImagenesGaleria {
                 padding: 25px;
                 width: 100%;
+                padding-bottom: 30px;
+                &:hover {
+                    transform: scale(1.2);
+                    transition: transform 0.5s;
+                    border: solid wheat 1px;
+                    border-radius: 2px;
+                 }
             }
         }
     }

@@ -1,25 +1,31 @@
-@import "Fuentes";
+@import "fuentes";
 
-@import "Variables";
+@import "mixin";
 
-@import "Utilidades";
+@import "variables";
 
-@import "Reset";
+@import "utilidades";
 
-@import "Body";
+@import "reset";
 
-@import "Header";
+@import "body";
 
-@import "Footer";
+@import "header";
 
-@import "MainServicio";
+@import "footer";
 
-@import "MainIndex";
+@import "mainservicio";
 
-@import "MainContacto";
+@import "mainindex";
 
-@import "MainFormacion";
+@import "mainformacion";
 
-@import "MainGaleria";
+@import "maincontacto";
+
+@import "maingaleria";
+
+@import "boostrap";
+
+
 
 
