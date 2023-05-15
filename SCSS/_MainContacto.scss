@@ -19,6 +19,7 @@
 }
 
 .containerFormulario {
+    margin: auto 0;
     padding: 10px;
     .SelectorFormulario {
         padding-bottom: 30px;
@@ -32,6 +33,48 @@
     font-size: 1.5rem;
     font-family: $FuentePrincipal;
 }
+
+.form-label {
+    font-style: normal;
+    color: white;
+}
+
+.btn {
+      background-color: #fff; 
+      color: gray; 
+      border: 2px solid gray;
+      padding: 16px 20px;
+      border-radius: 3px; 
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+      display: inline-block;
+    }
+    .btn:hover {
+      color: #fff; 
+    }
+    .btn:after {
+      content: "";
+      background: gray;
+      position: absolute;
+      z-index: -1;
+      padding: 16px 20px;
+      display: block;
+      left: 0;
+      right: 0;
+      top: 100%;
+      bottom: -100%;
+      -webkit-transition: all 0.35s;
+      transition: all 0.35s;
+    }
+    .btn:hover::after {
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      -webkit-transition: all 0.35s;
+      transition: all 0.35s;
+    }
 
 
 

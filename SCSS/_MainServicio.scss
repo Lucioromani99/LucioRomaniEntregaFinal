@@ -1,12 +1,14 @@
 .ServicioMain {
+    margin: auto 0;
+    padding: auto 0;
     font-family: $FuentePrincipal;
     .ContenedorTextoServicio {
         margin-bottom: 150px;
         margin-top: 70px;
         .ContenedortituloprincipalServicio {
             @include Contenedortituloprincipal;
-            margin-top: 70px;
-            margin-bottom: 90px;
+            margin-top: 30px;
+            margin-bottom: 10px;
 
         }
     }
@@ -24,7 +26,8 @@
                 }
                 .ImagenesServicioCard{
                     object-fit: cover;
-                    width: 100%;                    
+                    width: 100%;
+                            
                 }
             }
         }

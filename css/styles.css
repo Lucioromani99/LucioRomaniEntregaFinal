@@ -39,7 +39,6 @@ footer p {
 }
 footer .LinkRedesDiv {
   text-decoration: none;
-  padding-left: 20px;
   margin-top: 20px;
   display: inline-flex;
 }
@@ -56,6 +55,8 @@ footer .LinkRedes .icon:hover {
 }
 
 .ServicioMain {
+  margin: auto 0;
+  padding: auto 0;
   font-family: "Roboto Slab", serif;
 }
 .ServicioMain .ContenedorTextoServicio {
@@ -71,8 +72,8 @@ footer .LinkRedes .icon:hover {
   display: flex;
   box-shadow: #222 5px;
   border: solid white;
-  margin-top: 70px;
-  margin-bottom: 90px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .ServicioMain .DivCardsServicio {
   margin-top: 0px;
@@ -89,10 +90,11 @@ footer .LinkRedes .icon:hover {
 .ServicioMain .DivCardsServicio .CardsServicio .CardsServicioHijo .ImagenesServicioCard {
   object-fit: cover;
   width: 100%;
-  margin-top: -110px;
 }
 
 .mainIndex {
+  margin-left: auto 0;
+  margin-right: auto 0;
   color: #222;
 }
 .mainIndex .H2lucio {
@@ -230,6 +232,7 @@ footer .LinkRedes .icon:hover {
   margin-bottom: 10vh;
 }
 .containerFormulario {
+  margin: auto 0;
   padding: 10px;
 }
 .containerFormulario .SelectorFormulario {
@@ -242,6 +245,51 @@ footer .LinkRedes .icon:hover {
 .input-group-sm {
   font-size: 1.5rem;
   font-family: "Roboto Slab", serif;
+}
+
+.form-label {
+  font-style: normal;
+  color: white;
+}
+
+.btn {
+  background-color: #fff;
+  color: gray;
+  border: 2px solid gray;
+  padding: 16px 20px;
+  border-radius: 3px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.btn:after {
+  content: "";
+  background: gray;
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: 0;
+  right: 0;
+  top: 100%;
+  bottom: -100%;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.btn:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
 }
 
 /*
@@ -291,6 +339,12 @@ footer .LinkRedes .icon:hover {
   text-decoration: none;
   color: white;
   font-size: 2rem;
+}
+
+.row {
+  padding: auto 0;
+  margin-left: auto 0;
+  margin-right: auto 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
