@@ -292,13 +292,6 @@ footer .LinkRedes .icon:hover {
   transition: all 0.35s;
 }
 
-/*
-.SelectorFormulario {
-    padding-bottom: 30px;
-}
-.ContenedorEmail{
-    padding-bottom: 20px;
-}*/
 .GaleriaSection {
   margin: auto 0;
   margin-top: 30px;
@@ -314,6 +307,109 @@ footer .LinkRedes .icon:hover {
   transition: transform 0.5s;
   border: solid wheat 1px;
   border-radius: 2px;
+}
+
+.body404 {
+  background-image: none;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+  margin: auto 0;
+  padding: auto 0;
+  font-family: "Roboto Slab", serif;
+}
+.body404 .main404 {
+  height: calc(100vh - 112px);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media (max-width: 576px) {
+  .body404 .main404 {
+    height: calc(100vh - 130px);
+  }
+}
+.body404 .main404 .errorMensaje {
+  margin: auto 0;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.body404 .main404 .errorMensaje .errorMensaje2 {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: whitesmoke;
+}
+.body404 .main404 .errorMensaje .errorMensaje2 .h1404 {
+  font-size: 10rem;
+}
+.body404 .main404 .errorMensaje .errorMensaje2 .animate {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+.body404 .main404 .errorMensaje .errorMensaje2 .bounce {
+  animation-name: bounce;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+@media (max-width: 576px) {
+  .body404 .main404 .errorMensaje .errorMensaje2 .errorMensaje {
+    margin-top: 200px;
+  }
+  .body404 .main404 .errorMensaje .errorMensaje2 .errorMensaje .h1404 {
+    font-size: 3rem;
+  }
+  .body404 .main404 .errorMensaje .errorMensaje2 .errorMensaje p {
+    font-size: 1rem;
+  }
+}
+.body404 .divImg404 {
+  width: 60%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+.body404 .divImg404 img {
+  width: 70%;
+  background-repeat: no-repeat;
+}
+@media (max-width: 576px) {
+  .body404 .divImg404 img {
+    width: 100%;
+    margin-bottom: 150px;
+    margin-top: -40px;
+  }
+}
+@media (max-width: 576px) {
+  .body404 .divImg404 {
+    width: 100%;
+  }
 }
 
 .navbar-light .navbar-nav .nav-link {
